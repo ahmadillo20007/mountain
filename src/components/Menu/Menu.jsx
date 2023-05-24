@@ -6,7 +6,7 @@ function Menu() {
   return (
     <div className='menu'>
         <div className="container">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" /> 
             <ul>
                 <li><img src={home}  alt="" />Dashboard</li>
                 <li><img src={home}  alt="" />Dashboard</li>
