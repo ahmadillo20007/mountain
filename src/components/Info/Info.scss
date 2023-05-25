@@ -1,0 +1,77 @@
+.info{
+    margin-left: 1330px;
+margin-top: -930px;
+}
+.info__btn{
+    border-radius: 50%;
+    border: 1px solid #B4BCC4;
+    box-sizing: border-box;
+    width: 53px;
+height: 53px;
+background: none;
+}
+.info__btn2{
+    border-radius: 50%;
+    border: none;
+    box-sizing: border-box;
+    width: 53px;
+height: 53px;
+background: none;
+}
+.info__header{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info__img{
+    margin-top: 60px;
+    border-radius: 25px;
+}
+
+.status{
+    font-family: 'Baloo 2';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+
+color: #18333E;
+}
+.info__item{
+    font-family: 'Baloo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #18333E;
+margin-top: -20px;
+opacity: 0.7;
+}
+.data__list{
+    display: flex;
+    width: 740px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.data__list__item2{
+    display: flex;
+    align-items: center;
+    width: 64px;
+    height: 111px;
+    background: #18333E;
+    border-radius: 32px;
+
+    .today{
+        display: flex;
+margin-top: 70px;
+color: #fff;
+text-align: center;
+margin-left: 15px;
+
+}
+}
+.data__list__item{
+    margin-top: 70px;
+}
