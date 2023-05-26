@@ -6,6 +6,9 @@ import i2 from '../img/img2.png'
 import i3 from '../img/img3.png'
 import loc from '../img/Vector.png'
 import star from '../img/star.png'
+import i6 from '../img/img6.png'
+
+
 
 const arr =[
 1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
@@ -153,6 +156,24 @@ function Main() {
             </li>
     
          </ul>
+             </div>
+             <div className="main__footer">
+               <div className="div1">
+<img src={i6} alt="" />
+<h3 className='main__footer__text'>
+Netherlands Travel Tour
+</h3>
+<div className="b">
+<img src={star} alt="" />
+
+<p>
+4.7
+</p>
+</div>
+               </div>
+               <div className="div2">
+               </div>
+               <div className="div3"></div>
              </div>
             </div>
         </div>

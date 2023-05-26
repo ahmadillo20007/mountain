@@ -1,6 +1,6 @@
 .info{
     margin-left: 1330px;
-margin-top: -930px;
+margin-top: -1110px;
 }
 .info__btn{
     border-radius: 50%;
@@ -74,4 +74,107 @@ margin-left: 15px;
 }
 .data__list__item{
     margin-top: 70px;
+    
+    
+}
+
+.info__bg__img{
+    
+    width: 395px;
+    border-radius: 25px;
+height: 290px;
+    background-image: url('../img/mountain.png');
+}
+.info__list{
+        width: 326px;
+        height: 71px;
+        background: rgba(255, 255, 255, 0.32);
+        backdrop-filter: blur(2.5px);
+        border-radius: 15px;
+        list-style-type: none;
+        margin-top: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    margin-top: 190px;
+        
+        .li1{
+            width: 64px;
+height: 46.37px;
+left: 1205px;
+top: 343.32px;
+
+background: url('../img/imgbg.png');
+border-radius: 15px;
+        }
+        .li2{
+            width: 64px;
+height: 46.37px;
+left: 1205px;
+top: 343.32px;
+
+background: url('../img/Rectangle\ 23.png');
+border-radius: 15px;
+        }
+        .li3{
+            width: 64px;
+height: 46.37px;
+left: 1205px;
+top: 343.32px;
+
+background: url('../img/Rectangle\ 24.png');
+border-radius: 15px;
+        }
+        .li4{
+            width: 64px;
+height: 46.37px;
+left: 1205px;
+top: 343.32px;
+
+background: url('../img/Rectangle\ 25.png');
+border-radius: 15px;
+        }
+}
+.info__hero__item{
+    margin-top: 56px;
+}
+.info__hero__btn{
+    width: 175px;
+    height: 61px;
+    background: #18333E;
+    border-radius: 30.5px;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.afsd{
+    margin-top: 70px;
+p{
+    color: #fff;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+    
+}
+.list{
+    list-style-type: none;
+    margin-left: -35px;
+    height: 400px;
+    width: 380px;
+    .list__item{
+        margin-top: 33px;
+        width: 395px;
+height: 92px;
+img{
+    border-radius: 15px;
+}
+        }
+}
+.info__hero{
+    margin-top: -130px;
 }
