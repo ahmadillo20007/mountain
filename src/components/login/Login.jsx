@@ -1,10 +1,13 @@
 import React from 'react'
-import SignUp from './SignUp/SignUp'
+import { Outlet } from 'react-router-dom'
 
 function Login() {
   return (
     <div>
-        <SignUp/>
+      <h1>
+        dgznj
+      </h1>
+        <Outlet/>
         
     </div>
   )

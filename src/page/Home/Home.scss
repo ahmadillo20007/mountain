@@ -1,3 +1,128 @@
-.home{
-    
+.home {
+    display: flex;
+
+    .menu {
+        width: 20%;
+
+        .menu__img {
+            margin-top: 25px;
+        }
+
+        ul {
+            margin-top: 91px;
+
+            li {
+                margin-top: 64px;
+            }
+        }
+
+        li {
+            margin-top: 210px;
+        }
+    }
+
+    .main {
+        width: 50%;
+
+        input {
+            width: 668px;
+            height: 53px;
+            margin-top: 30px;
+            border-radius: 26.5px;
+            border: none;
+            background: #E9F1FA;
+            outline: none;
+        }
+
+        .main__header__img {
+            margin-left: 732.19px;
+        }
+
+        input::placeholder {
+            padding-left: 55px;
+        }
+
+        .main__pl {
+
+            margin-left: -650px;
+        }
+
+        .main__text {
+            margin-top: 58px;
+            font-family: 'Baloo 2';
+            font-weight: 600;
+            font-size: 30px;
+        }
+
+        .main__list {
+            display: flex;
+            list-style-type: none;
+            margin-left: -87px;
+            margin-top: 23px;
+
+            li {
+                margin-left: 57px;
+                color: #18333E;
+                font-family: 'Baloo 2';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        .cards {
+            li {
+                border: none;
+               
+
+                h2 {
+                    font-family: 'Baloo 2';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    color: #18333E;
+                    margin-top: 20px;
+                    margin-left: 30px;
+                  
+                }
+        .buttons{
+           margin-top: 11px;
+            display: flex;
+            width: 200px;
+            justify-content: space-between;
+        
+                    .cards__img{
+                    width: 14.05px;
+                    height: 16.23px;
+                    margin-left: 30px;
+                    margin-top: 11.39px;
+                }
+        }
+            }
+
+            display: flex;
+            margin-left: -60px;
+            margin-top: 37px;
+            justify-content: space-between;
+
+            .card__img {
+
+                width: 241px;
+                height: 322px;
+                margin-left: 30px;
+                border-radius: 25px;
+            }
+        }
+        .time{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 59px;
+            button{
+                border: none;
+                border: 1px solid #B4BCC4;
+                background: none;
+border-radius: 24px;
+            }
+        }
+    }
 }
