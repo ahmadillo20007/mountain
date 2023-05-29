@@ -5,8 +5,14 @@ import pl from '../../components/img/pl.png'
 import i1 from '../../components/img/img1.png'
 import i2 from '../../components/img/img2.png'
 import i3 from '../../components/img/img3.png'
+import i6 from '../../components/img/img6.png'
 import loc from '../../components/img/location.png'
 import star from '../../components/img/star.png'
+import not from '../../components/img/not.png'
+import acc from '../../components/img/acc.png'
+import nat from '../../components/img/nat.png'
+import caravan from '../../components/img/caravan.png'
+import flat from '../../components/img/flat.png'
 import './Home.scss'
 function Home() {
   let dateNow = new Date()
@@ -148,10 +154,87 @@ let month = dateNow.getMonth()
   }
 </li>
   </ul>
+  <div className="main__footer">
+               <div className="div1">
+<img src={i6} alt="" />
+<h3 className='main__footer__text'>
+Netherlands Travel Tour
+</h3>
+<div className="b">
+<img src={star} alt="" />
+
+<p>
+4.7
+</p>
+</div>
+               </div>
+               <div className="div2">
+               </div>
+               <div className="div3"></div>
+             </div>
            </div>
-           <div className="info">
-          s
-           </div>
+           <div className='info'>
+      <div className="container">
+
+        <div className="info__header">
+          <img src={loc} alt="" />
+          <i className='status'></i>
+          <button className='info__btn'>
+            <img src={not} alt="" />
+          </button>
+          <button className='info__btn2'>
+            <img src={acc} alt="" />
+          </button>
+        </div>
+        <div className="info__hero">
+         <div className="info__bg__img">
+          <ul className='info__list'>
+            <li className='li1'></li>
+            <li className='li2'></li>
+            <li className='li3'></li>
+            <li className='li4'></li>
+           
+          </ul>
+         </div>
+          <h2 className='status'>
+            Brazil Forest
+          </h2>
+          <p className='info__item'>
+            I spend ten minutes or so doing a couple of Duolingo <br />
+            lessons in French so
+          </p>
+        
+        
+
+<div className="c">
+<div className="fg"><p className='info__hero__item'>
+        per/person</p>
+        <h1 className='info__hero__text'>
+        $1540
+        </h1></div>
+<div className="afsd">        <button className='info__hero__btn'>
+<p>
+Book Travel
+
+</p>        
+</button>
+</div>
+</div>
+<ul className='list'>
+  <li className='list__item'>
+    <img src={nat} alt="" />
+  </li>
+  <li className='list__item'>
+    <img src={caravan} alt="" />
+  </li>
+  <li className='list__item'>
+    <img src={flat} alt="" />
+  </li>
+</ul>
+        </div>
+
+      </div>
+    </div>
            </div>
     </div>
   )
