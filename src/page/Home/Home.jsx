@@ -101,6 +101,53 @@ let month = dateNow.getMonth()
 }
   </button>
 </div>
+  <ul className="date">
+<li>
+  {
+    date-1
+  }
+</li>
+<li>
+  {
+    date
+  }
+</li>
+<li>
+  {
+    date+1
+  }
+</li>
+<li>
+  {
+    date+2
+  }
+</li>
+<li>
+  {
+    date+3
+  }
+</li>
+<li>
+  {
+    date+4
+  }
+</li>
+<li>
+  {
+    date+5
+  }
+</li>
+<li>
+  {
+    date+6
+  }
+</li>
+<li>
+  {
+    date+7
+  }
+</li>
+  </ul>
            </div>
            <div className="info">
           s

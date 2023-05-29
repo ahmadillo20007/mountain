@@ -124,5 +124,12 @@
 border-radius: 24px;
             }
         }
+        .date{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-top: 49px;
+            margin-left: -30px;
+        }
     }
 }
