@@ -189,5 +189,58 @@ border-radius: 24px;
             
         }
     }
+
+
+    .info {
+        padding-top: 30px;
+        .info-head-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+                display: block;
+                width: 41px;
+                height: 1px;
+                border: 1px solid #B4BCC4;
+                transform: rotate(90deg);
+                margin-right: 24px; 
+            }
+            h4 {
+                font-family: 'Baloo 2';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                color: #18333E;
+                display: flex;
+                align-items: center;
+                margin-right: 88px;      
+            }
+            h4::before {
+                content: "";
+                background-image: url(../../components/img/location.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 24px;
+                height: 24px;
+                display: block;
+                margin-right: 14px;
+            }
+            div {
+                width: 53px;
+                height: 53px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #B4BCC4;
+                border-radius: 50%;
+            }
+            .info-img-acc {
+                width: 53px;
+                height: 53px;
+                margin-left: 33px;
+            }
+        }
+    }
     
 }
