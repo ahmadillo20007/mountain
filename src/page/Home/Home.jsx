@@ -15,6 +15,9 @@ import heroDest from "../../components/img/imgbg.png"
 import hero2 from "../../components/img/Rectangle 23.png"
 import hero3 from "../../components/img/Rectangle 24.png"
 import hero4 from "../../components/img/Rectangle 25.png"
+import heart from "../../components/img/heart.svg"
+import carvan from "../../components/img/caravan.png"
+import flat from "../../components/img/flat.png"
 import './Home.scss'
 function Home() {
   let dateNow = new Date()
@@ -206,6 +209,32 @@ function Home() {
                       <h4>$1540</h4>
                     </div>
                     <button>Book Travel</button>
+                  </div>
+                </div>
+                <div>
+                  <div className='kot'>
+                    <img className='kot-img' src={nat} alt="" />
+                    <div>
+                      <h4>Nature Lake</h4>
+                      <h5>Afghanistan</h5>
+                    </div>
+                    <div className='kot-img-warp'><img className='kot-span-img' src={heart} alt="" /></div>
+                  </div>
+                  <div className='kot'>
+                    <img className='kot-img' src={carvan} alt="" />
+                    <div>
+                      <h4>Nature Lake</h4>
+                      <h5>Afghanistan</h5>
+                    </div>
+                    <div className='kot-img-warp'><img className='kot-span-img' src={heart} alt="" /></div>
+                  </div>
+                  <div className='kot'>
+                    <img className='kot-img' src={flat} alt="" />
+                    <div>
+                      <h4>Nature Lake</h4>
+                      <h5>Afghanistan</h5>
+                    </div>
+                    <div className='kot-img-warp'><img className='kot-span-img' src={heart} alt="" /></div>
                   </div>
                 </div>
               </div>
