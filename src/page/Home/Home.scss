@@ -73,7 +73,7 @@
         .cards {
             li {
                 border: none;
-               
+
 
                 h2 {
                     font-family: 'Baloo 2';
@@ -83,21 +83,22 @@
                     color: #18333E;
                     margin-top: 20px;
                     margin-left: 30px;
-                  
+
                 }
-        .buttons{
-           margin-top: 11px;
-            display: flex;
-            width: 200px;
-            justify-content: space-between;
-        
-                    .cards__img{
-                    width: 14.05px;
-                    height: 16.23px;
-                    margin-left: 30px;
-                    margin-top: 11.39px;
+
+                .buttons {
+                    margin-top: 11px;
+                    display: flex;
+                    width: 200px;
+                    justify-content: space-between;
+
+                    .cards__img {
+                        width: 14.05px;
+                        height: 16.23px;
+                        margin-left: 30px;
+                        margin-top: 11.39px;
+                    }
                 }
-        }
             }
 
             display: flex;
@@ -113,98 +114,113 @@
                 border-radius: 25px;
             }
         }
-        .time{
+
+        .time {
             display: flex;
             justify-content: space-between;
             margin-top: 59px;
-            button{
+
+            button {
                 border: none;
                 border: 1px solid #B4BCC4;
                 background: none;
-border-radius: 24px;
+                border-radius: 24px;
             }
         }
-        .date{
+
+        .date {
             display: flex;
             justify-content: space-between;
             list-style-type: none;
             margin-top: 49px;
             margin-left: -30px;
         }
-        .main__footer{
+
+        .main__footer {
             margin-top: 43px;
             display: flex;
-            .div1{
+
+            .div1 {
                 width: 457px;
-        height: 119px;
-        background: #18333E;
-        border-radius: 25px;
-        display: flex;
-        padding-left: 23px;
-        align-items: center;
-        img{
-        border-radius: 15px;
-        
-        }
-        .main__footer__text{
-            font-family: 'Baloo 2';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 29px;
-        margin-left: 30px;
-        color: #FFFFFF;
-        margin-top: -10px;
-        }
+                height: 119px;
+                background: #18333E;
+                border-radius: 25px;
+                display: flex;
+                padding-left: 23px;
+                align-items: center;
+
+                img {
+                    border-radius: 15px;
+
+                }
+
+                .main__footer__text {
+                    font-family: 'Baloo 2';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 29px;
+                    margin-left: 30px;
+                    color: #FFFFFF;
+                    margin-top: -10px;
+                }
             }
-            .div2{
+
+            .div2 {
                 width: 118px;
                 height: 119px;
                 background: url('../../components/img/img4.png');
-        object-fit: cover;
+                object-fit: cover;
                 border-radius: 25px;
                 margin-left: 50px;
             }
-            .div3{
+
+            .div3 {
                 width: 118px;
                 height: 119px;
                 background: url('../../components/img/img5.png');
-        object-fit: cover;
+                object-fit: cover;
                 border-radius: 25px;
-                margin-left: 50px; 
-                
+                margin-left: 50px;
+
             }
-            .b{
+
+            .b {
                 margin-top: 50px;
                 margin-left: -180px;
                 height: 40px;
                 align-items: center;
                 width: 80px;
                 display: flex;
-                p{
+
+                p {
                     color: #fff;
                     font-family: 'Baloo 2';
                 }
             }
-            
+
         }
     }
 
 
     .info {
         padding-top: 30px;
+
         .info-head-wrap {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin-bottom: 58px;
+
             span {
                 display: block;
                 width: 41px;
                 height: 1px;
                 border: 1px solid #B4BCC4;
                 transform: rotate(90deg);
-                margin-right: 24px; 
+                margin-right: 24px;
             }
+
             h4 {
                 font-family: 'Baloo 2';
                 font-style: normal;
@@ -214,8 +230,9 @@ border-radius: 24px;
                 color: #18333E;
                 display: flex;
                 align-items: center;
-                margin-right: 88px;      
+                margin-right: 88px;
             }
+
             h4::before {
                 content: "";
                 background-image: url(../../components/img/location.png);
@@ -226,6 +243,7 @@ border-radius: 24px;
                 display: block;
                 margin-right: 14px;
             }
+
             div {
                 width: 53px;
                 height: 53px;
@@ -234,13 +252,109 @@ border-radius: 24px;
                 justify-content: center;
                 border: 1px solid #B4BCC4;
                 border-radius: 50%;
+                cursor: pointer;
             }
+
             .info-img-acc {
                 width: 53px;
                 height: 53px;
                 margin-left: 33px;
+                cursor: pointer;
             }
         }
     }
-    
+
+    .info-hero {
+        .info-hero-wrap {
+            background-image: url(../../components/img/mountain.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 190px 35px 29px 34px;
+            border-radius: 30px;
+            margin-bottom: 31px;
+
+            div {
+                padding: 12.32px 20px 12.32px 17px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: rgba(255, 255, 255, 0.32);
+                backdrop-filter: blur(2.5px);
+                border-radius: 15px;
+                width: 326px;
+                margin: 0 auto;
+            }
+        }
+
+        .info-forest {
+            .info-h4-brazil {
+                font-family: 'Baloo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 48px;
+                display: flex;
+                align-items: center;
+                color: #18333E;
+            }
+
+            .info-h4-brazil::after {
+                content: "";
+                background-image: url(../../components/img/book-saved.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 24px;
+                height: 24px;
+                display: block;
+                margin-left: 204px;
+                cursor: pointer;
+            }
+
+            p {
+                font-family: 'Baloo 2';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #18333E;
+                opacity: 0.7;
+                margin-bottom: 56px;
+            }
+        }
+
+    }
+
+    .info-person {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h5 {
+            font-family: 'Baloo 2';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            transform: translateY(10px);         
+            color: #18333E;
+        }
+        h4 {
+            font-family: 'Baloo 2';
+            font-weight: 600;
+            font-size: 40px;
+            color: #18333E;
+        }
+        button {
+            background: #18333E;
+            border-radius: 30.5px;
+            padding: 16px 40px 17px 39px;
+            font-family: 'Baloo 2';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            color: #FFFFFF;
+            border: none;
+            outline: none;
+        }
+    }
+
 }

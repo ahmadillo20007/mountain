@@ -11,10 +11,11 @@ import star from '../../components/img/star.png'
 import not from '../../components/img/not.png'
 import acc from '../../components/img/acc.png'
 import nat from '../../components/img/nat.png'
-import caravan from '../../components/img/caravan.png'
-import flat from '../../components/img/flat.png'
+import heroDest from "../../components/img/imgbg.png"
+import hero2 from "../../components/img/Rectangle 23.png"
+import hero3 from "../../components/img/Rectangle 24.png"
+import hero4 from "../../components/img/Rectangle 25.png"
 import './Home.scss'
-import infoLocation from "../../components/img/location.png"
 function Home() {
   let dateNow = new Date()
   let date = dateNow.getDate()
@@ -177,10 +178,37 @@ function Home() {
         <div className='info'>
           <div className="container">
             <div className='info-head-wrap'>
-                <span></span>
-                <h4>New York/ Dc</h4>
-                <div><img src={not} alt="" /></div>
-                <img className='info-img-acc' src={acc} alt="" />
+              <span></span>
+              <h4>New York/ Dc</h4>
+              <div><img src={not} alt="" /></div>
+              <img className='info-img-acc' src={acc} alt="" />
+            </div>
+
+            <div className='info-hero'>
+              <div className="container">
+                <div className='info-hero-wrap'>
+                  <div>
+                    <img src={heroDest} alt="" />
+                    <img src={hero2} alt="" />
+                    <img src={hero3} alt="" />
+                    <img src={hero4} alt="" />
+                  </div>
+                </div>
+                <div className='info-forest'>
+                  <h4 className='info-h4-brazil'>Brazil Forest</h4>
+                  <p>
+                    I spend ten minutes or so doing a couple of Duolingo <br />
+                    lessons in French so
+                  </p>
+                  <div className='info-person'>
+                    <div>
+                      <h5>per/person</h5>
+                      <h4>$1540</h4>
+                    </div>
+                    <button>Book Travel</button>
+                  </div>
+                </div>
+              </div>
             </div>
 
 
